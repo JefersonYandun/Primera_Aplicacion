@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.512" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/txtdireccion"
         android:layout_width="176dp"
         android:layout_height="29dp"
         android:ems="10"
@@ -94,7 +94,7 @@
         app:layout_constraintVertical_bias="0.431" />
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/txtcorreo"
         android:layout_width="176dp"
         android:layout_height="29dp"
         android:ems="10"
@@ -107,7 +107,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/txtcedula"
         android:layout_width="176dp"
         android:layout_height="29dp"
         android:ems="10"
@@ -121,7 +121,7 @@
         app:layout_constraintVertical_bias="0.366" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/txtapellidos"
         android:layout_width="176dp"
         android:layout_height="29dp"
         android:ems="10"
@@ -135,7 +135,7 @@
         app:layout_constraintVertical_bias="0.286" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/txtnombres"
         android:layout_width="176dp"
         android:layout_height="29dp"
         android:ems="10"
@@ -147,4 +147,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.222" />
+
+    <Button
+        android:id="@+id/btnvalidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="232dp"
+        android:text="VALIDAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
